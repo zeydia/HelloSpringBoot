@@ -7,9 +7,11 @@ import java.util.List;
 
 public interface EtudiantRepository {
 
-    default void save(Etudiant etudiant) {}
+    default void saveEtudiant(Etudiant etudiant) {}
 
     default Etudiant getEtudiantById(Integer id) { return null; }
 
     default List<Etudiant> getAllEtudiants() {  return null; }
+
+    default  void deleteEtudiant(Etudiant etudiant) {}
 }

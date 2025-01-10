@@ -1,0 +1,13 @@
+sn/edu/ugb/ipsl/HelloSpringBoot/services/DepartementService.class
+sn/edu/ugb/ipsl/HelloSpringBoot/controller/EtudiantController.class
+sn/edu/ugb/ipsl/HelloSpringBoot/HelloSpringBootApplication.class
+sn/edu/ugb/ipsl/HelloSpringBoot/utils/InitEtudiant.class
+sn/edu/ugb/ipsl/HelloSpringBoot/Repositories/DepartementRepository.class
+sn/edu/ugb/ipsl/HelloSpringBoot/entities/Etudiant.class
+sn/edu/ugb/ipsl/HelloSpringBoot/services/EtudiantService.class
+sn/edu/ugb/ipsl/HelloSpringBoot/Repositories/EtudiantRepositoryImpl.class
+sn/edu/ugb/ipsl/HelloSpringBoot/Repositories/DepartementRepositoryImpl.class
+sn/edu/ugb/ipsl/HelloSpringBoot/controller/DepartementController.class
+sn/edu/ugb/ipsl/HelloSpringBoot/entities/Departement.class
+sn/edu/ugb/ipsl/HelloSpringBoot/Repositories/EtudiantRepository.class
+sn/edu/ugb/ipsl/HelloSpringBoot/entities/Etudiant$EtudiantBuilder.class

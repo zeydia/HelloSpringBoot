@@ -10,6 +10,7 @@ import sn.edu.ugb.ipsl.HelloSpringBoot.Repositories.EtudiantRepository;
 public class InitEtudiant implements CommandLineRunner {
 
 
+    @Autowired
     private EtudiantRepository etudiantRepository;
 
     @Override
@@ -18,15 +19,13 @@ public class InitEtudiant implements CommandLineRunner {
         Etudiant e1 = new Etudiant();
         e1.setPrenom("Xhadee");
         e1.setNom("JAAY");
-        e1.setId(2);
 
         Etudiant e2 = Etudiant.builder()
-                .id(1)
                 .prenom("Seydou")
                 .nom("DIALLO")
                 .build();
-        etudiantRepository.save(e2);
 
-        etudiantRepository.save(e1);
+        etudiantRepository.saveEtudiant(e2);
+        etudiantRepository.saveEtudiant(e1);
     }
 }
