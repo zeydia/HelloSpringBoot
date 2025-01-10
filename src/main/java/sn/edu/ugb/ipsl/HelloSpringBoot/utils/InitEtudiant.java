@@ -23,7 +23,7 @@ public class InitEtudiant implements CommandLineRunner {
         Etudiant e2 = Etudiant.builder()
                 .id(1)
                 .prenom("Seydou")
-                .nom("banana")
+                .nom("DIALLO")
                 .build();
         etudiantRepository.save(e2);
 
