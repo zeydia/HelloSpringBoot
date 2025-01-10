@@ -1,6 +1,7 @@
 package sn.edu.ugb.ipsl.HelloSpringBoot.controller;
 
 
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -18,6 +19,10 @@ public class EtudiantController {
     @Autowired
     public EtudiantService etudiantService;
 
+    @Operation(
+            summary = "Liste des etudiants",
+            description = "Retourne l'ensemble des etudiants de l'IPSL"
+    )
     @GetMapping
     public List<Etudiant> getEtudiants () {
        // List<Etudiant> etudiants = new ArrayList<>();
